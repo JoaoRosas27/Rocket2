@@ -86,8 +86,8 @@ class Play extends Phaser.Scene {
         this.grass.tilePositionX -= 4;
         // displays the time left
         for (let index = 0; index < 55; index++) {
-            this.timeVariable = this.timeVariable+1;
-            this.timeLeft.setText("Time: "+ Math.round(this.timeVariable));
+           // this.timeVariable = this.timeVariable+1;
+            this.timeLeft.setText("Time: "+ Math.round(this.timeVariable*.001));
         }
         
 
@@ -96,6 +96,7 @@ class Play extends Phaser.Scene {
             this.target01.update();           // update targets (x3)
             this.target02.update();
             this.target03.update();
+            this.timeVariable = this.timeVariable + delta;
         } 
 
         // check collisions
