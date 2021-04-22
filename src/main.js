@@ -13,3 +13,5 @@ let borderPadding = borderUISize / 3;
 // reserve keyboard vars
 let keyF, keyR, keyLEFT, keyRIGHT;
 
+// changed the theme and added a timer. 
+// Tried to change the title but for some reason it doesn't update even though its coded to Target Practice
