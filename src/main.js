@@ -22,4 +22,4 @@ let keyF, keyR, keyLEFT, keyRIGHT;
 // Display time remaining - 10
 // Create new animated sprite for the spaceship - 10
 // Create new art for all of the in game assests - 20
-// Redesign the game - 60
+// Redesign the game - 60.
